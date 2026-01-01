@@ -10,3 +10,12 @@ Please note that you do not need to read the data file or perform any other such
 
 
 
+
+
+
+def display_title(title):
+    line = "_" * len(title)
+
+    print(line)
+    print(title)
+    print(line)
