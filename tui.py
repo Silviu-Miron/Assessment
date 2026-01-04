@@ -19,3 +19,10 @@ def display_title(title):
     print(line)
     print(title)
     print(line)
+
+def display_main_menu():
+    print("\nPlease enter the letter which corresponds with your desired menu choice:")
+    print("[A] View Data")
+    print("[B] Visualise Data")
+    print("[C] Export Data")
+    print("[X] Exit")
