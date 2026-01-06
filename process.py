@@ -19,3 +19,5 @@ def load_data(filename):
     file.close()
     return data
 
+
+

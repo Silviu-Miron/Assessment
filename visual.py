@@ -5,3 +5,8 @@ Any visualisations should be generated via functions in this module.
 
 
 
+import matplotlib.pyplot as plt
+
+
+
+
