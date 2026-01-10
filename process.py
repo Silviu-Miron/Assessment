@@ -101,14 +101,16 @@ def monthly_average_ordered(data,park):
 
     for row in data:
         if row["Branch"] == park:
-            parts = row["Year_Month"].split("_")
+            parts = row["Year_Month"].split("-")
 
             if len(parts) !=2:
                 continue
+
             month_number = parts[1]
 
             if not month_number.isdigit():
                 continue
+
             month_index = int(month_number)-1
 
             if month_index <0 or month_index >11:
