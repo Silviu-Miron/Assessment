@@ -93,7 +93,7 @@ def visualise_data_menu(data):
 
         if choice =="A":
             counts = process.reviews_per_park(data)
-            visual.pie_char(counts)
+            visual.pie_chart(counts)
 
         elif choice == "B":
             park = input("Enter park name:")
