@@ -79,6 +79,12 @@ def view_data_menu(data):
             print("Average rating:", avg)
 
         elif choice =="D":
+            park = input("Enter park name:")
+            location = input("Enter reviewer location")
+            avg = process.average_score_by_park_and_location(data, park, location)
+            print("Average score:", avg)
+
+        elif choice =="X":
             back = True
 
         else:

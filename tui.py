@@ -34,7 +34,9 @@ def display_view_menu():
     print("[A] View Reviews by Park")
     print("[B] Number of Reviews by Park and Reviewer Location")
     print("[C] Average Score per year by Park")
-    print("[D] Back to Main Menu")
+    print("[D] Average Score per Park by Reviewer Location")
+    print("[x] Back to main menu")
+
 
 # Define display_visual_menu function
 def display_visual_menu():

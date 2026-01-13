@@ -134,6 +134,23 @@ def monthly_average_ordered(data,park):
 
     return averages
 
+def average_score_by_park_and_location(data, park, location):
+    total = 0
+    count = 0
+
+    for row in data:
+        if row["Branch"]== park and row["Reviewer_Location"] == location:
+            total += int(row["Rating"])
+            count+=1
+
+    if count == 0:
+        return 0
+
+    return total / count
+
+
+
+
 
 
 
