@@ -80,7 +80,7 @@ def view_data_menu(data):
 
         elif choice =="D":
             park = input("Enter park name:")
-            location = input("Enter reviewer location")
+            location = input("Enter reviewer location:")
             avg = process.average_score_by_park_and_location(data, park, location)
             print("Average score:", avg)
 

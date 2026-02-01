@@ -134,6 +134,7 @@ def monthly_average_ordered(data,park):
 
     return averages
 
+#define average score by park and location function
 def average_score_by_park_and_location(data, park, location):
     total = 0
     count = 0
