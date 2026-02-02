@@ -44,3 +44,4 @@ def display_visual_menu():
     print("[A] Most reviewed Parks")
     print("[B] Parks Ranking by Nationality")
     print("[C] Most Popular Month by Park")
+    print("[x] Back to main menu")

@@ -19,9 +19,6 @@ import exporter
 import visual
 
 
-
-
-
 # Defining main function
 def main():
     tui.display_title("Disneyland Review Analyser")
@@ -110,6 +107,9 @@ def visualise_data_menu(data):
             park = input("Enter park name:")
             monthly = process.monthly_average_ordered(data, park)
             visual.bar_chart_months(monthly, park)
+
+        elif choice =="X":
+            back = True
 
         else:
             print("Invalid menu choice")
