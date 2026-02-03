@@ -97,20 +97,28 @@ def export_menu(data):
     print("[A] TXT")
     print("[B] CSV")
     print("[C] JSON")
+    print("[X] Back to main menu")
+
 
     choice = input("Enter your choice: ").upper()
 
     if choice == "A":
+        print("\nYou have chosen option A - TXT")
         exporter.export_txt()
         print("Exported to export.txt")
 
     elif choice == "B":
+        print("\nYou have chosen option B - CSV")
         exporter.export_csv()
         print("Exported to export.csv")
 
     elif choice == "C":
+        print("\nYou have chosen option C - JSON")
         exporter.export_json()
         print("Exported to export.json")
+
+    elif choice == "X":
+        print("\nYou have chosen option X - Back to main menu")
 
     else:
         print("Invalid choice")

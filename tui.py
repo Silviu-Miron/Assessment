@@ -44,4 +44,12 @@ def display_visual_menu():
     print("[A] Most reviewed Parks")
     print("[B] Parks Ranking by Nationality")
     print("[C] Most Popular Month by Park")
-    print("[x] Back to main menu")
+    print("[X] Back to main menu")
+
+
+def display_exporter_menu():
+    print("\n Please select export format:")
+    print("[A] TXT")
+    print("[B] CSV")
+    print("[C] JSON")
+    print("[X] Back to main menu")
